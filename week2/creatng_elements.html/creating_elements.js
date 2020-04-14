@@ -17,7 +17,7 @@ var newP = document.createElement("john")
 newP.textContent = "John Mayer Fan Club"
 newP.style.textAlign = "center"
 newP.style.fontSize = "30px"
-document.body.prepend(newP)
+document.body.append(newP)
 
 var newP2 = document.createElement("fans")
  newP2.textContent = "Super Fans United"
