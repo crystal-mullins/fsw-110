@@ -1,3 +1,3 @@
 var hello = document.getElementById("hello")
-console.log(hello)
-console.log.dir(hello)
+hello.textContent = "hello"
+document.body.append(hello)
