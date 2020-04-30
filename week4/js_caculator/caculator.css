@@ -1,0 +1,127 @@
+html, body{
+    margin: 10%;
+    padding: 10%;
+    /* position: relative;
+    align-items: center; */
+
+}
+#caculator{
+    height:750px;
+    width: 400px;
+    margin: 10%;
+    padding: 10%;
+    background-color: blue;
+}
+#box1{
+    height:125;
+    width: 200px;
+    margin: 10%;
+    padding: 10%;
+    background-color: lightblue;
+
+}
+#box2{
+    height:125;
+    width: 200px;
+    margin: 10%;
+    padding: 10%;
+    background-color: lightpink;
+}
+#box3{
+    height:125;
+    width: 200px;
+    margin: 10%;
+    padding: 10%;
+    background-color: lightgreen;
+}
+
+#num1{
+    width: 30%;
+    height: 15%;
+    background-color: white;
+    margin: 5%;
+    padding: 5%;
+    /* position: relative; */
+    align-items: center;
+
+}
+#num2{
+    width: 30%;
+    height: 15%;
+    background-color: white;
+    margin: 5%;
+    padding: 5%;
+    /* position: relative; */
+    align-items: center;
+
+}
+#sum1{
+    width: 30%;
+    height: 15%;
+    background-color: white;
+    margin: 5%;
+    padding: 5%;
+    /* position: relative; */
+    align-items: center;
+
+}
+#num3{
+    width: 30%;
+    height: 15%;
+    background-color: white;
+    margin: 5%;
+    padding: 5%;
+    /* position: relative; */
+    align-items: center;
+
+}
+#num4{
+    width: 30%;
+    height: 15%;
+    background-color: white;
+    margin: 5%;
+    padding: 5%;
+    /* position: relative; */
+    align-items: center;
+
+}
+#sum2{
+    width: 30%;
+    height: 15%;
+    background-color: white;
+    margin: 5%;
+    padding: 5%;
+    /* position: relative; */
+    align-items: center;
+
+}
+#num5{
+    width: 30%;
+    height: 15%;
+    background-color: white;
+    margin: 5%;
+    padding: 5%;
+    /* position: relative; */
+    align-items: center;
+
+}
+#num6{
+    width: 30%;
+    height: 15%;
+    background-color: white;
+    margin: 5%;
+    padding: 5%;
+    /* position: relative; */
+    align-items: center;
+
+}
+#sum3{
+    width: 30%;
+    height: 15%;
+    background-color: white;
+    margin: 5%;
+    padding: 5%;
+    /* position: relative; */
+    align-items: center;
+
+}
