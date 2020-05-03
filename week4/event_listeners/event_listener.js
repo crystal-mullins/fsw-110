@@ -41,11 +41,11 @@ box.addEventListener("wheel", function() {
 box.addEventListener("mouseover", function() {
     box.style.backgroundColor = "blue"
 })   // document.body.append("box")
-    document.body.addEventListener("keydown", function(event) {
-        if ("keydown" = "r"){
-        box.style.backgroundColor = "red"
+    // document.body.addEventListener("keydown", function(event) {
+    //     if ("keydown" = "r"){
+    //     box.style.backgroundColor = "red"
         // document.body.append("box")
-})
+
 
 
 
