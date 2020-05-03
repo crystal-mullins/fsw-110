@@ -26,11 +26,11 @@ document.getElementById("box")
     box.style.backgroundColor = "green"
     // document.body.append("box")
 })
-box.addEventListener("click", function() {
+box.addEventListener("mousedown", function() {
     box.style.backgroundColor = "red"
     // document.body.append("box")
 })
-box.addEventListener("pointerlockchange", function() {
+box.addEventListener("mouseup", function() {
     box.style.backgroundColor = "yellow"
     // document.body.append("box")
 })
@@ -40,8 +40,13 @@ box.addEventListener("wheel", function() {
 })
 box.addEventListener("mouseover", function() {
     box.style.backgroundColor = "blue"
-    // document.body.append("box")
+})   // document.body.append("box")
+    document.body.addEventListener("keydown", function(event) {
+        if ("keydown" = "r"){
+        box.style.backgroundColor = "red"
+        // document.body.append("box")
 })
+
 
 
 // var box = document.getElementById("box")
@@ -54,5 +59,3 @@ box.addEventListener("mouseover", function() {
 //     console.log("The box was clicked!")
 // }
 // box.addEventListner("click", handelBoxClick)
-
-
