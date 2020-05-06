@@ -13,11 +13,7 @@
 
 
 // document.getElementById("comment").style.property = new style
-var newP = document.createElement("john")
-newP.textContent = "John Mayer Fan Club"
-newP.style.textAlign = "center"
-newP.style.fontSize = "30px"
-document.body.append(newP)
+
 
 var newP2 = document.createElement("fans")
  newP2.textContent = "Super Fans United"
@@ -53,6 +49,12 @@ footer.textContent = "Leave a comment"
 var myFoot = document.getElementById("comment")
 myFoot.append(footer)
 
+var newP1 = document.createElement("john")
+newP1.textContent = "John Mayer Fan Club"
+newP1.style.textAlign = "center"
+newP1.style.fontSize = "30px"
+newP1.style.color = "greeen"
+document.body.append(newP1)
 
 document.getElementById("comment").style.backgroundColor = "yellow";
 document.getElementById("comment").style.textAlign = "center";
