@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form id="newClient">
+
+            <input id="name" name="name" type="text" placeholder="name" required> <br>
+            <input id="age" type="Number" placeholder="age"><br>
+            <input id="email" type="text" placeholder="email" required><br>
+            <input id="date" type="date" placeholder="date"/><br>
+            <input id="num1" type="Number" placeholder="phone"><br>
+            <input id="address" type="text" placeholder="address"/>
+            <br>
+            Would you like to Subscribe to our email list?
+            
+            YES 
+            <input id="suscribeY" name="suscribe" type="radio"> 
+            
+            NO
+            <input id="suscribeN"  name="suscribe" type="radio"/>
+            <br>
+
+            <button>Click Me</button>
+            <!-- the button knows that it belongs to this form because it's nested in it. 
+            A single button in a form will defualt to a submit button and will trigger a submit event -->
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
